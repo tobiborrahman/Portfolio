@@ -1,0 +1,171 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+/* .hr-style {
+  border: 5px dotted white;
+  border-bottom: none;
+  width: 50px;
+  align-items: center;
+} */
+
+/* header starts */
+
+header {
+  background-image: url(images/banner.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  padding: 1% 15%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-icon {
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+  margin: 10px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.nav-link:hover {
+  background: #548cff;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.banner-container {
+  height: 100vh;
+}
+
+.banner-container h1 {
+  font-size: 3.5rem;
+  background-color: rgba(7, 101, 189, 0.8);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* features starts */
+
+#features {
+  padding: 3% 10%;
+  background: #e8ded2;
+}
+
+.features-col {
+  border: 1px solid #ff02c0;
+  border-radius: 5px;
+  padding: 35px 10px;
+  margin: 20px 0;
+  transition: 0.5s;
+}
+
+.features-col:hover {
+  transform: scale(1.1);
+  box-shadow: 3px 7px 5px black;
+}
+
+.icon-style {
+  background: #ef2f88;
+  color: white;
+  padding: 15px;
+  margin: 15px 0px;
+}
+
+/* about me strats */
+
+#about-me {
+  padding: 4% 10%;
+  background: #e8ded2;
+}
+
+#about-me p {
+  margin-bottom: 0;
+  font-weight: lighter;
+}
+
+.star i {
+  width: 20px;
+  margin-bottom: 15px;
+  color: #1c0c5b;
+}
+
+#tutorial {
+  padding: 4% 10%;
+  background: #f5c6a5;
+}
+
+.card {
+  border: 1px solid #ff7777;
+  transition: 0.5s;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+/* feedback starts here */
+
+#feedback {
+  padding: 4% 10%;
+  background: #d47ae8;
+}
+
+.carousel-item {
+  text-align: center;
+  padding: 7% 15%;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.feedback-img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+#contact {
+  background: #a8ece7;
+  padding: 2% 10%;
+}
+
+footer {
+  padding: 1% 10%;
+  background: #1db9c3;
+}
+
+footer a {
+  color: white;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  color: black;
+}
